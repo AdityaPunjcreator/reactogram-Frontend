@@ -1,0 +1,33 @@
+.search-box {
+  width: 30vw;
+  border: none;
+}
+
+.search-button {
+  display: inline-block;
+  position: relative;
+  left: -1rem;
+  border: none;
+  margin-right: 0px !important;
+  padding: 0px !important;
+}
+
+.search-button:hover {
+  background-color: none;
+}
+
+.dropdown-menu {
+  top: 2rem !important;
+  left: -8rem !important;
+}
+
+.navbar-profile-pic {
+  height: 28px;
+  width: 28px;
+  border-radius: 70%;
+}
+@media screen and (max-width: 828px) {
+  .search-box {
+    display: none !important;
+  }
+}

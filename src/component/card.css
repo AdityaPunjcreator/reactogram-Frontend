@@ -1,0 +1,26 @@
+.profile-pic {
+  height: 70px;
+  width: 70px;
+  border-radius: 70%;
+}
+
+.info {
+  cursor: pointer;
+}
+
+.custom-size {
+  height: 400px !important;
+  width: 600px;
+}
+
+/* @media screen and (min-width: 576px) {
+  .custom-margin {
+    margin-top: "9rem";
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .custom-margin {
+    margin-top: "12rem";
+  }
+} */

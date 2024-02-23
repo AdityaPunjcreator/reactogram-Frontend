@@ -1,0 +1,69 @@
+.login-container {
+  font-family: "Poppins", sans-serif;
+  margin-top: 8rem;
+}
+
+.input-bg {
+  background-color: #f3f3f3;
+  color: #dbd5d5;
+  font-size: 0.9 rem;
+  height: 2.9 rem;
+}
+
+.custom-btn {
+  padding: 0.9rem;
+  border-radius: 4px;
+  border: 1px solid rgb(179, 224, 255);
+  background-color: rgb(179, 224, 255);
+  color: rgb(255, 255, 255);
+}
+/* using pseudo elements */
+/* in order to apply color to the placeholder, you could have applied CSS style directly to input tag and specify the color there */
+::placeholder {
+  font-size: 12px;
+  color: blue !important;
+}
+
+.or-divider {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.or-divider hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 0;
+}
+
+.or-divider span {
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 10px;
+  position: relative;
+  top: -12px;
+}
+
+.custom-button {
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #f3f3f3;
+  background-color: #f3f3f3;
+}
+
+.loader {
+  text-align: center;
+  position: relative;
+  top: 20rem;
+}
+
+/* media queries should always be written at the bottom once you are done with all other css codes  */
+
+@media screen and (max-width: 576px) {
+  .shadow {
+    box-shadow: none !important; /*declaration marked as important*/
+  }
+  .card {
+    border: none !important; /*declaration marked as important*/
+    margin-top: 2rem !important;
+  }
+}
